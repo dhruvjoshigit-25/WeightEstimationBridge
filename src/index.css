@@ -1,0 +1,48 @@
+* {
+   box-sizing: border-box;
+}
+
+.manual-buttons button {
+   margin: 8px;
+   width: 95%;
+   /* display: flex; */
+   justify-content: center;
+}
+
+.signal-status {
+   font-size: small;
+}
+
+div.bridge-name {
+   padding-top: 15px;
+   font-weight: bold;
+   text-align: center;
+   text-transform: capitalize;
+}
+
+button.signal-status {
+   padding-left: 3px;
+   padding-right: 3px;
+}
+
+div.tweight {
+   margin: auto auto;
+}
+
+body {
+   font-family: 'Poppins', sans-serif !important;
+   /* background-color: black !important; */
+}
+
+div.carousel-inner {
+   height: 76vh;
+   background-color: rgb(39, 49, 46);
+}
+
+.company-txt {
+   font-weight: 900 !important;
+}
+
+.page-footer {
+   background-color: rgba(150, 181, 182, 0.267);
+}
