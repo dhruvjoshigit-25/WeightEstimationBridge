@@ -17,20 +17,7 @@ const Header = () => {
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="controls.html">Controls</a>
-                     </li>
-                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false">
-                           Analysis
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                           <a class="dropdown-item" href="#">Graphical</a>
-                           <a class="dropdown-item" href="#">Statistical</a>
-                        </div>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">Settings</a>
+                        <a class="nav-link" href="index.html">About us<span class="sr-only"></span></a>
                      </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
