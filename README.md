@@ -18,7 +18,7 @@ This will create a folder node_modules with all the installed modules
 npm start
 ```
 This should open the server on port 3000.
-If bugs persist or the server/app doesn't start up check wether the correct react enviornment is active.
+If bugs persist or the server/app doesn't start up check wether all the modules are installed.
 
 ## Editing
 For editing the site, make changes in App.js , index.css , index.js
