@@ -2,6 +2,15 @@
    box-sizing: border-box;
 }
 
+.bg-extra-dark {
+   /* background-color: #17191b !important; */
+   background-color: #1D2023 !important;
+}
+
+.Header .nav-link {
+   padding: 0.5rem 5px ;
+}
+
 .manual-buttons button {
    margin: 8px;
    width: 95%;
@@ -13,11 +22,12 @@
    font-size: small;
 }
 
-div.bridge-name {
+.bridge-name {
    padding-top: 15px;
    font-weight: bold;
    text-align: center;
    text-transform: capitalize;
+   font-size: larger;
 }
 
 button.signal-status {
@@ -40,9 +50,18 @@ div.carousel-inner {
 }
 
 .company-txt {
-   font-weight: 900 !important;
+   /* font-weight: 500 !important; */
 }
 
 .page-footer {
    background-color: rgba(150, 181, 182, 0.267);
+}
+
+/*-------------------------- Manual Gate Control --------------------------*/
+
+.GateControls div.input-group {
+   width: 50%;
+   display: flex;
+   text-align: center;
+   margin: auto;
 }

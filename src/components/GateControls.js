@@ -10,7 +10,7 @@ const GateControls = () => {
 
    return (
       <>
-         <div class="col-md-6">
+         <div class="container">
             <div class="row manual-buttons">
                <div class="col-md-12 bridge-name">
                   <Bridge name="Thane - Mulund" />
