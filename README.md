@@ -10,6 +10,9 @@ To use this app and test it on a local dev enviornment
 ```bison
 npm install
 ```
+```bison
+npm install react-blink-text
+```
 This will create a folder node_modules with all the installed modules
 ```bison
 npm start
