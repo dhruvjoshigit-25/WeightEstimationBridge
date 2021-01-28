@@ -107,10 +107,17 @@ const Analysis = () => {
                   <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
                </div>
-               <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
-                  <span data-feather="calendar"></span>
+               <span>
+                  <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"
+                     aria-haspopup="true" aria-expanded="false">
+                     <span data-feather="calendar"></span>
                      This week
-               </button>
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item" href="#">Graphical</a>
+                     <a class="dropdown-item" href="#">Statistical</a>
+                  </div>
+               </span>
             </div>
          </div>
 
@@ -133,10 +140,11 @@ const Analysis = () => {
                </div>
                <input type="text" class="form-control" placeholder="Weight..." value="251.059 kg" aria-label="Input group example" aria-describedby="btnGroupAddon"></input>
             </div>
-            
+
          </div>
 
          {PerformanceGraphs()}
+
          {DailyEntryTable()}
       </>
    );

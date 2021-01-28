@@ -2,11 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import "./index.css";
-import PerformanceGraphs from "./components/PerformanceGraphs.js";
 import Footer from "./components/Footer.js";
 import Header from "./components/Header.js";
 import SideBar from "./components/SideBar";
-// import GateControls from "./components/GateControls"
 import Dashboard from './views/Dashboard';
 import ManualGateControl from './views/ManualGateControl';
 import Home from "./views/Home";
