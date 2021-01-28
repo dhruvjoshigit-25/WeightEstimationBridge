@@ -36,9 +36,9 @@ const ManualGateControl = () => {
                </div>
 
                <div class="card border-danger m-5">
-                  <div class="card-header">Important notice</div>
+                  {/* <div class="card-header">Important notice</div> */}
                   <div class="card-body text-danger">
-                     {/* <h5 class="card-title">Danger card title</h5> */}
+                     <h5 class="card-title font-weight-bold">Important Notice!</h5>
                      <p class="card-text">Do not close or open the gates manually unless extreamly necessary</p>
                   </div>
                </div>
@@ -72,7 +72,7 @@ const ManualGateControl = () => {
                         </div>
                      </div>
                   </div>
-                  <div class="col-md-12 text-center">
+                  {/* <div class="col-md-12 text-center">
                      <div class="row">
                         <div class="col-md-6">
                            <button class="btn btn-lg btn-secondary">Signal Status</button>
@@ -89,7 +89,7 @@ const ManualGateControl = () => {
                            <button class="btn btn-lg btn-outline-success signal-status" disabled>Green</button>
                         </div>
                      </div>
-                  </div>
+                  </div> */}
 
                   <div class="col-md-12 text-center p-3 pt-5">
                      Bridge-side : <Bridge name="Mulund - Thane" />
@@ -112,7 +112,7 @@ const ManualGateControl = () => {
                   </div>
 
 
-                  <div class="col-md-12 text-center">
+                  {/* <div class="col-md-12 text-center">
                      <div class="row">
                         <div class="col-md-6">
                            <button class="btn btn-lg btn-secondary ">Signal Status</button>
@@ -127,7 +127,7 @@ const ManualGateControl = () => {
                            <button class="btn btn-lg btn-outline-success signal-status font-weight-bold" disabled><Blink color='green' text='Green' fontSize='20'>Green</Blink></button>
                         </div>
                      </div>
-                  </div>
+                  </div> */}
 
                </div>
 
